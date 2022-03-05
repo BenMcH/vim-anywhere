@@ -19,8 +19,8 @@ __OSX:__
 
 __Linux:__
 
-- Gnome (or a derivative)
 - gVim
+- xte [xautomation](https://linux.die.net/man/7/xautomation)
 
 #### Install
 
@@ -50,12 +50,7 @@ You can adjust the shortcut via [system preferences](assets/shortcut.png).
 System Preferences > Keyboard > Shortcuts > Services > Vim Anywhere
 ```
 
-__Linux:__ ( default = `ctrl+alt+v` )
-
-*Gnome*
-```bash
-$ gconftool -t str --set /desktop/gnome/keybindings/vim-anywhere/binding <custom binding>
-```
+__Linux:__ 
 
 *I3WM*
 
