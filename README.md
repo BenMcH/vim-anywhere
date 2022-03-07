@@ -42,7 +42,7 @@ curl -fsSL https://raw.github.com/BenMcH/vim-anywhere/master/install | bash
 
 ## Keybinding
 
-__OSX:__ ( default = `ctrl+cmd+v` )
+__OSX:__ ( default = `cmd+esc` )
 
 You can adjust the shortcut via [system preferences](assets/shortcut.png).
 

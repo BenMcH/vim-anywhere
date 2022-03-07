@@ -104,10 +104,10 @@ if [[ $OSTYPE == "darwin"* ]]; then
   # Set default keybindings
   defaults write pbs NSServicesStatus '{
     "(null) - VimAnywhere - runWorkflowAsService" = {
-      "key_equivalent" = "@^v";
+      "key_equivalent" = "@\033";
     };
     "org.vim.MacVim - MacVim/New MacVim Buffer With Selection - openSelection" = {
-      "key_equivalent" = "@^v";
+      "key_equivalent" = "@\033";
     };
   }'
 
